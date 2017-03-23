@@ -34,7 +34,7 @@ describe("Hero", function() {
     assert.equal('Ratus Norvegicus', ratus.name);
   });
   it('food is poisonous', function() {
-    ratus.nibble('cheese');
+    ratus.nibble(cheese);
     assert.equal(true, cheese.poisonous);
   });
 });
